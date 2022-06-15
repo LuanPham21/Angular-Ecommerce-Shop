@@ -9,7 +9,16 @@ import { MustMatch } from 'src/app/core/helper/must-match.validator';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: [
+    './login.component.css',
+    "./../../../../../assets/login/vendor/bootstrap/css/bootstrap.min.css",
+    "./../../../../../assets/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+    "./../../../../../assets/login/vendor/animate/animate.css",
+    "./../../../../../assets/login/vendor/css-hamburgers/hamburgers.min.css",
+    "./../../../../../assets/login/vendor/select2/select2.min.css",
+    "./../../../../../assets/login/css/util.css",
+    "./../../../../../assets/login/css/main.css"
+  ]
 })
 export class LoginComponent extends BaseComponent implements OnInit {
   frmLogin:FormGroup;
@@ -35,10 +44,7 @@ export class LoginComponent extends BaseComponent implements OnInit {
       this.frmLogin = this.formBuilder.group({
         TaiKhoan: ['', Validators.required],
         MatKhau: ['', Validators.required],
-        NhapLaiMatKhau: ['', Validators.required],
         remember: [''],
-      },{
-        validator: MustMatch('MatKhau', 'NhapLaiMatKhau')
       });
       
       this.frmRegister = this.formBuilder.group({
@@ -71,6 +77,7 @@ export class LoginComponent extends BaseComponent implements OnInit {
       this.loading = true;
       this.authenticationService.login(this.f.TaiKhoan.value, this.f.MatKhau.value).pipe(first()).subscribe((data) => {
         this.router.navigate([this.returnUrl]);
+        alert("Đăng nhập thành công");
       }, (error) => {
         alert("Đăng nhập thất bại");
         this.loading = false;   

@@ -43,3 +43,18 @@ C:\Users\ACER\OneDrive\Desktop\Project5_QuanLyBanDoGiadung-master\Project5_QuanL
 C:\Users\ACER\OneDrive\Desktop\Project5_QuanLyBanDoGiadung-master\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.dll
 C:\Users\ACER\OneDrive\Desktop\Project5_QuanLyBanDoGiadung-master\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\ref\DAL.dll
 C:\Users\ACER\OneDrive\Desktop\Project5_QuanLyBanDoGiadung-master\Project5_QuanLyBanDoGiadung-master\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.pdb
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\DAL.deps.json
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\DAL.dll
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\ref\DAL.dll
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\DAL.pdb
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\Model.dll
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\bin\Debug\net5.0\Model.pdb
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.csproj.CopyComplete
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.dll
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\ref\DAL.dll
+D:\bai\HK2 2021-2022\Angular\LT\Angular-Ecommerce-Shop\QLBanDoGiaDung_API\DAL\obj\Debug\net5.0\DAL.pdb

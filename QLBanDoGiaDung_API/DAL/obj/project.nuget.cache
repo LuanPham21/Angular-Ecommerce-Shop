@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U86XJiu56uitspIw1+6CPXDTJ3cxtqrrBaAyjryb+AO6gCo3ITvy7cpNZ5lVFYiItW0BuxMgyQ8GAQyOfgFgOg==",
+  "dgSpecHash": "85Y+1S2W0oE0+HPD/kwwGysGHNMg7OfthWHEa6j4iSA9SxsDhGTPH7kRFg7xJvBCbDHVFbG5xroCE1zL+eRyMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VlkN4g/OmntHvJ9Adpdj/gQhH7XaWZokWS/XcshWIiCwEaxlMrJcnUkB/ykYO0ov9iXBVjL0fkdWzIFNwjZttA==",
+  "dgSpecHash": "41ToG3FZWWs4WhLR5kJiVHWl2vdCt0DjOinjbITkoUv4hKZp2LNMI663AvNMt770+/vi+20DdtW0mh2ogZaDEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\QLBanDoGiaDung_API\\QLBanDoGiaDung_API.csproj",
+  "projectFilePath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\QLBanDoGiaDung_API\\QLBanDoGiaDung_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\mailkit\\3.0.0\\mailkit.3.0.0.nupkg.sha512",

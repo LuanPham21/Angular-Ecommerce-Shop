@@ -20,6 +20,11 @@ export class HomeComponent extends BaseComponent implements OnInit {
   public page = 1;
   public pageSize = 10;
   public slider: any;
+  public aokhoac = '6857e0d7-c670-40d3-8fb9-1507f6c73969';
+  public ao = '002ce079-3f85-4a32-baef-e35e056fd676';
+  public non = '002c1057-2f96-44da-af8f-de5bc2ed38db';
+  public balo = 'baefffa5-03f1-4da8-80a7-974a6d4ed853';
+  public quan = 'fd1a61bf-8952-441e-a4b5-662e11fcad8f';
   constructor(injector: Injector) {
     super(injector);
   }

@@ -6,7 +6,7 @@ import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'QuanLyBanDoGiaDung';
+  title = 'NOW SAIGON';
   constructor() { }
 
   ngOnInit(): void {

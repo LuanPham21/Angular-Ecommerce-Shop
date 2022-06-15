@@ -2157,11 +2157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\BLL\\BLL.csproj",
+      "projectPath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\BLL\\obj\\",
+      "outputPath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2178,11 +2178,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\DAL\\DAL.csproj"
+            "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\Project5_QuanLyBanDoGiadung-master\\Project5_QuanLyBanDoGiadung-master\\QLBanDoGiaDung_API\\Model\\Model.csproj"
+            "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\Model\\Model.csproj": {
+              "projectPath": "D:\\bai\\HK2 2021-2022\\Angular\\LT\\Angular-Ecommerce-Shop\\QLBanDoGiaDung_API\\Model\\Model.csproj"
             }
           }
         }

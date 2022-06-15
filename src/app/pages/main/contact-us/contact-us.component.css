@@ -12,3 +12,8 @@
 .breadcrumb-bg-color--golden {
     background: #f5f5f5;
 }
+p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}

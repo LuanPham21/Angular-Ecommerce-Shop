@@ -13,11 +13,15 @@ import { CoreModule } from '../../core/core.module';
 import { BlogListComponent } from './blog-list/blog-list.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { SearchComponent } from './search/search.component';
+import { ChooseSizeComponent } from './choose-size/choose-size.component';
+import { PreserveComponent } from './preserve/preserve.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
 
 
 
 @NgModule({
-  declarations: [HomeComponent, ProductListComponent,ProductDetailsComponent, AboutUsComponent, ContactUsComponent, CategoryListComponent, BlogListComponent, BlogDetailsComponent, SearchComponent],
+  declarations: [HomeComponent, ProductListComponent,ProductDetailsComponent, AboutUsComponent, ContactUsComponent, CategoryListComponent, BlogListComponent, BlogDetailsComponent, SearchComponent, ChooseSizeComponent, PreserveComponent, PrivacyPolicyComponent, TermsOfServiceComponent],
   imports: [
     NgbModule,
     CommonModule,
@@ -60,6 +64,22 @@ import { SearchComponent } from './search/search.component';
       {
         path:'contact-us',
         component: ContactUsComponent
+      },      
+      {
+        path:'choose-size',
+        component: ChooseSizeComponent
+      },
+      {
+        path:'preserve',
+        component: PreserveComponent
+      },
+      {
+        path:'private-policy',
+        component: PrivacyPolicyComponent
+      },
+      {
+        path:'terms-service',
+        component: TermsOfServiceComponent
       },
     ]), 
   ]

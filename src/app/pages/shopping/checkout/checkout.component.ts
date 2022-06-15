@@ -159,8 +159,8 @@ export class CheckoutComponent extends BaseComponent implements OnInit {
     
     public onSubmit(value: any) {
       // let fullname = value.txtHo + ' ' + value.txtTen;
-      let address = value.xa.ten + ' - ' + value.huyen.ten + ' - ' + value.tinh.ten;
-      let diaChiNhan = '(' + value.txtDiaChi + ' ) ' + address;
+      let address =value.xa.loai + ': ' +  value.xa.ten + ' - ' + value.huyen.loai + ': ' + value.huyen.ten + ' - ' + value.tinh.loai + ': ' + value.tinh.ten;
+      let diaChiNhan = '(' + value.txtDiaChi + ' ) - ' + address;
       console.log(value.txtDiaChi + ' - ' + address);
       let hoadon = {
         hoTen: value.txtHoTen, 
@@ -173,7 +173,6 @@ export class CheckoutComponent extends BaseComponent implements OnInit {
         listjson_chitiet:this.items
       };
       this._api.post('/api/DonHang/create-hoadon', hoadon).takeUntil(this.unsubscribe).subscribe(res => {
-        debugger;
         this._api.post('/api/Email/Send', {
           ToEmail: value.txtEmail,
           Subject: "Cửa hàng bán đồ gia dụng HONO",
@@ -183,36 +182,11 @@ export class CheckoutComponent extends BaseComponent implements OnInit {
           "<h3>Số điện thoại:  </h3>" + value.txtSDT +
           "<h3>Email: </h3>"  + value.txtEmail + 
           "<h3>Địa chỉ nhận:  </h3>"  + diaChiNhan +
-          // "<h3>Sản phẩm đã đặt</h3>" +
-          // "<table class='table-styling product' border=1 cellpadding=3 cellspacing=2>" +
-          // "<thead>"+
-          // "<tr>" +
-          // "<th>STT</th>" +
-          // "<th>Tên sản phẩm</th>" +
-          // "<th>Số lượng</th>" +
-          // "<th>Đơn giá (VND)</th>" +
-          // "<th>Thành tiền (VND)</th>" +
-          // "</tr>" +
-          // "</thead>"+
-          // "<tbody>" +
-          //   this.items.forEach((obj) => {
-          //   debugger;
-          //     "<tr>" +
-          //       "<td>"+(this.i + 1)+"</td>" +
-          //       "<td>"+obj.tenSanPham+"</td>" +
-          //       "<td>"+obj.quantity+"</td>" +
-          //       "<td>"+obj.giaBan+"</td>" +
-          //       "<td>"+obj.money+"</td>" +
-          //     "</tr>"
-          //  })
-          // +
-          // "</tbody>"+
-          // "</table>" +
           "<h3>Tổng tiền:</h3>" + this.total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') + " " + "VNĐ" +
           "<h3>Cảm ơn bạn đã mua hàng nhé</h3>"
         }).takeUntil(this.unsubscribe).subscribe(res => {
         }, err => {
-          alert('Có lỗi trong quá trình thực hiện');
+          console.log(err);
         })
         alert('Đặt hàng thành công');
         this._cart.clearCart();

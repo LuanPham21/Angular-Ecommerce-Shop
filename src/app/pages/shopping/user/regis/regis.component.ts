@@ -6,10 +6,23 @@ import { AuthenticationService } from 'src/app/core/authentication.service';
 import { BaseComponent } from 'src/app/core/base-component';
 import { MustMatch } from 'src/app/core/helper/must-match.validator';
 
+//css
+
+
 @Component({
   selector: 'app-regis',
   templateUrl: './regis.component.html',
-  styleUrls: ['./regis.component.css']
+  styleUrls: [
+    './regis.component.css',
+    "./../../../../../assets/login/vendor/bootstrap/css/bootstrap.min.css",
+    "./../../../../../assets/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+    "./../../../../../assets/login/vendor/animate/animate.css",
+    "./../../../../../assets/login/vendor/css-hamburgers/hamburgers.min.css",
+    "./../../../../../assets/login/vendor/select2/select2.min.css",
+    "./../../../../../assets/login/css/util.css",
+    "./../../../../../assets/login/css/main.css"
+  ],
+  
 })
 export class RegisComponent extends BaseComponent implements OnInit {
   frmLogin:FormGroup;
@@ -92,7 +105,7 @@ export class RegisComponent extends BaseComponent implements OnInit {
       role: 'User'
     }).takeUntil(this.unsubscribe).subscribe(res => {
       alert('Đăng ký thành công');
-      this.router.navigate(['/shopping/login']);
+      this.router.navigate(['/auth/login']);
     }, err => { 
       alert('Có lỗi trong quá trình thực hiện');
     });    
